@@ -1,1 +1,1 @@
-console.log('first day')
+console.log('first day 哈哈')
