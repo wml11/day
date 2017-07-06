@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../fonts/iconfont.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<i class="iconfont">&#xe6ef;</i>
+			<p>设备测试预约系统</p>
+			<i class="iconfont">&#xe6f9;</i>
+		</header>
+		<main>
+			<section class="mask">
+				<section class="detail">
+					<ul>
+					  	<li><img src="img/logo_01.png" alt=""></li>
+					  	<li>设备测试预约系统</li>
+					</ul>
+				    <dl>
+				    	<dt><img src="img/icon_01.png" alt=""></dt>
+				    	<dd><input type="text" placeholder="请输入手机号"></dd>
+				    </dl>
+				    <dl>
+				    	<dt><img src="img/icon_03.png" alt=""></dt>
+				    	<dd><input type="password" placeholder="请输入密码"></dd>
+				    </dl>
+			    </section>
+			</section>
+			
+		</main>
+	</div>
+
+	<script>
+		
+		;(function(win,doc){
+			var rem = 100/320*document.documentElement.clientWidth;
+			doc.documentElement.style.fontSize = rem + 'px'
+			win.onresize = function(){
+				var rem = 100/320*document.documentElement.clientWidth;
+			    doc.documentElement.style.fontSize = rem + 'px'
+			}
+		})(window,document);
+	</script>
+</body>
+</html>

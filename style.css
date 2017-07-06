@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width:100%;
+	height: 100%;
+}
+.container{
+	width:100%;
+	height: 100%;
+	font-size: 0.14rem;
+	display: flex;
+	-webkit-flex-direction:column;
+}
+.container header{
+	width:100%;
+	height: 0.41rem;
+	flex-shrink: 0;
+	line-height: 0.41rem;
+	background:#393A3F;
+	display: flex;
+	color:#fff;
+	font-size:0.17rem;
+}
+.container header i{
+	width:0.43rem;
+	text-align: center;
+	font-size: 0.17rem;
+}
+.container header p{
+	-webkit-flex-grow:1;
+	margin-left:0.05rem;
+}
+.container main{
+  width:100%;
+  -webkit-flex-grow:1;
+  
+}
+.container main .mask{
+	width:100%;
+	height: 5.02rem;
+	background: #000;
+	opacity: 0.5;
+	padding-top:0.64rem;
+}
+.container main .mask .detail{
+	width:90%;
+	height: 3.76rem;
+	background:#fff;
+	border-radius: 0.07rem;
+	margin:0 auto;
+
+}
+.detail ul{
+	width:100%;
+
+}
+.detail ul li{
+	width:50%;
+	margin:0 auto;
+	text-align: center;
+	font-size: 0.16rem;
+	line-height: 0.25rem
+}
+.detail ul li img{
+	width:100%;
+}
+.detail ul li:first-child{
+	padding-top:0.3rem;
+}
+.detail dl{
+	width:90%;
+	height: 0.6rem;
+	border-bottom: 1px solid #ccc;
+	margin:0 auto;
+	padding-top:0.35rem;
+}
+.detail dl dt{
+	width:0.13rem;
+	height: 0.19rem;
+	float:left;
+	margin-right:0.08rem;
+}
+.detail dl dt img{
+	width:100%;
+}
+.detail dl dd input{
+	float:left;
+	background:#fff;
+	border:none;
+}
+
